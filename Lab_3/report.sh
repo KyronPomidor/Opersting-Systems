@@ -1,5 +1,3 @@
-#!/bin/bash
-# usage: ./report.sh access.log
 log=$1
 if [ ! -f "$log" ]; then
     echo "no such file: $log" >&2
