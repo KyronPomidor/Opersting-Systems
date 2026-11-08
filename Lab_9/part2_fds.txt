@@ -1,0 +1,5 @@
+total 0
+lrwx------ 1 kiril kiril 64 Nov  8 13:56 0 -> /dev/pts/0
+l-wx------ 1 kiril kiril 64 Nov  8 13:56 1 -> pipe:[46353]
+lrwx------ 1 kiril kiril 64 Nov  8 13:56 2 -> /dev/pts/0
+lr-x------ 1 kiril kiril 64 Nov  8 13:56 3 -> /proc/8405/fd

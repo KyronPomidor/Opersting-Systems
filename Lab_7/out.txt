@@ -1,0 +1,12 @@
+total 100
+-rw-r--r-- 1 kiril kiril     0 Oct 25 12:48 out.txt
+-rwxrwxr-x 1 kiril kiril 70824 Oct 25 12:48 redirect
+-rw-rw-r-- 1 kiril kiril   647 Oct 25 12:48 redirect.c
+-rwxrwxr-x 1 kiril kiril 70928 Oct 25 12:36 run
+-rw-rw-r-- 1 kiril kiril   809 Oct 25 12:36 run.c
+-rwxrwxr-x 1 kiril kiril 70936 Oct 25 12:37 run_date
+-rw-rw-r-- 1 kiril kiril   807 Oct 25 12:37 run_date.c
+-rwxrwxr-x 1 kiril kiril 70936 Oct 25 12:37 run_nosuch
+-rw-rw-r-- 1 kiril kiril   819 Oct 25 12:37 run_nosuch.c
+-rwxrwxr-x 1 kiril kiril 70976 Oct 25 12:39 zombie
+-rw-rw-r-- 1 kiril kiril   861 Oct 25 12:38 zombie.c
