@@ -1,0 +1,4 @@
+1. One line costs 31 write() system calls (30 letters and the newline), and each letter is a separate call. The two processes run at the same time on different CPUs, so their calls interleave and the letters mix.
+2. sem_down(3); before the loop that prints the line, and sem_up(3); after it. Between them only one process can print.
+3. Several processes can be woken by one wakeup, and another process may run first and take the unit, so when a process runs again the value can be 0 again. It must check again, that is why we use while and not if.
+4. The process would keep the spinlock while it sleeps, so sem_up could never acquire the lock to increment the value and wake it up: nobody would release the lock and the system would hang. xv6 also forbids sleeping with a spinlock.
